@@ -2,7 +2,7 @@ import socket
 import sys
 from _thread import *
 host = "localhost"
-port= 80
+port= 5200
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
     s.bind((host,port))
